@@ -8,6 +8,6 @@
             _nameToValidate = name;
         }
 
-        public bool IsNameShort => _nameToValidate.Length <= 3 ? true : false;
+        public bool IsNameShort => false;
     }
 }
